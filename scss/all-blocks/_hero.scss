@@ -1,0 +1,161 @@
+.hero{
+    margin-bottom: 160px;
+}
+
+.container-hero{
+    background-image: url(../img/Group65.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    max-width: 1111px;
+    min-height: 640px;
+    background-color: #E7816B;
+    padding-top: 145px;
+    padding-left: 95px;
+    border-radius: 15px;
+
+
+    .hero-left{
+        width: 100%;
+        max-width: 540px;
+        min-height: 350px;
+
+        .hero-heading{
+            margin: 0;
+            margin-bottom: 11px;
+            color: #fff;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 48px;
+        }
+    
+        .hero-desc{
+            margin: 0;
+            margin-bottom: 40px;
+            color: #fff;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .btn{
+            padding: 18px 25px 16px 24px;
+            border: none;
+            background-color: #fff;
+            color: #000;
+            font-weight: 500;
+            font-size: 15px;
+            border-radius: 8px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero{
+        margin-bottom: 120px;
+    }
+    .container-hero{
+        background-image: url(../img/Group655.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        width: 100%;
+        min-height: 843px;
+        background-color: #E7816B;
+        padding: 0;
+        padding-top: 60px;
+        border-radius: 15px;
+    
+    
+        .hero-left{
+            margin: 0 auto;
+            width: 100%;
+            max-width: 573px;
+            min-height: 326px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            .hero-heading{
+                text-align: center;
+                margin: 0;
+                margin-bottom: 8px;
+                color: #fff;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 48px;
+            }
+        
+            .hero-desc{
+                text-align: center;
+                margin: 0;
+                margin-bottom: 19px;
+                color: #fff;
+                font-size: 16px;
+                line-height: 26px;
+            }
+            .btn{
+                padding: 18px 25px 16px 24px;
+                border: none;
+                background-color: #fff;
+                color: #000;
+                font-weight: 500;
+                font-size: 15px;
+                border-radius: 8px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 590px){
+    .hero{
+        margin-bottom: 120px;
+    }
+    .container-hero{
+        background-image: url(../img/Group777.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        width: 100%;
+        min-height: 843px;
+        background-color: #E7816B;
+        padding-top: 80px;
+        border-radius: 15px;
+    
+    
+        .hero-left{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 327px;
+            min-height: 312px;
+    
+            .hero-heading{
+                margin: 0;
+                margin-bottom: 14px;
+                color: #fff;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 36px;
+            }
+        
+            .hero-desc{
+                margin: 0;
+                margin-bottom: 24px;
+                color: #fff;
+                font-size: 15px;
+                line-height: 25px;
+            }
+            .btn{
+                padding: 18px 25px 16px 24px;
+                border: none;
+                background-color: #fff;
+                color: #000;
+                font-weight: 500;
+                font-size: 15px;
+                border-radius: 8px;
+            }
+        }
+    }
+}
