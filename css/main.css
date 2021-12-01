@@ -983,6 +983,7 @@ img {
 .box .box-1 {
   padding-top: 273px;
   background-image: url(../img/Bitmaps.png);
+  border-radius: 15px;
   background-repeat: no-repeat;
   width: 100%;
   max-width: 541px;
@@ -1002,6 +1003,7 @@ img {
   padding-top: 107px;
   margin-bottom: 24px;
   background-image: url(../../img/Bitmap18.png);
+  border-radius: 15px;
   background-repeat: no-repeat;
   width: 100%;
   max-width: 541px;
@@ -1011,6 +1013,7 @@ img {
 .box .box-2 .box-4 {
   padding-top: 107px;
   background-image: url(../../img/Bitmap13.png);
+  border-radius: 15px;
   background-repeat: no-repeat;
   width: 100%;
   max-width: 541px;
@@ -1064,6 +1067,7 @@ img {
     margin-bottom: 24px;
     padding-top: 53px;
     background-image: url(../img/Bitmap14.png);
+    border-radius: 15px;
     background-repeat: no-repeat;
     width: 100%;
     max-width: 728px;
@@ -1081,6 +1085,7 @@ img {
     padding-top: 53px;
     margin-bottom: 24px;
     background-image: url(../../img/Bitmap15.png);
+    border-radius: 15px;
     background-repeat: no-repeat;
     width: 100%;
     max-width: 728px;
@@ -1090,6 +1095,7 @@ img {
     padding-top: 53px;
     background-image: url(../../img/Bitmap16.png);
     background-repeat: no-repeat;
+    border-radius: 15px;
     width: 100%;
     max-width: 728px;
     min-height: 200px;
